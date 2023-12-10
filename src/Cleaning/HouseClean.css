@@ -1,0 +1,70 @@
+/* Styling for the overall page */
+.ion-padding {
+    padding: 20px;
+  }
+  
+  .image-container {
+    text-align: center;
+  }
+  
+  .houseCleaning, .houseclean {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling for the flat size options */
+  .flat-options {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .flat-size-dropdown {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .book-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .book-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Styling for the house content */
+  .house-content {
+    margin-top: 30px;
+  }
+  
+  .house-content h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .house-content p {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  
+  .house-content img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+  
+  /* IonTitle style */
+  ion-title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  

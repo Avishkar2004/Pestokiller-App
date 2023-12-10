@@ -1,0 +1,132 @@
+.pestControl {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 2px;
+}
+
+.pestControl img {
+  max-width: 30%;
+  margin-top: -0.5rem;
+}
+
+.AcImage img {
+  max-width: 50%;
+}
+
+.pestControlButton,
+.cleaningButton {
+  background-color: transparent;
+  color: dark;
+  border: none;
+  padding: 8px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: -49px;
+}
+
+.pestControlButton img,
+.cleaningButton img {
+  max-width: 60px;
+  max-height: 60px;
+}
+
+.pestControlButton:hover,
+.cleaningButton:hover {
+  background-color: transparent;
+  opacity: 0.8;
+}
+
+.plumberButton {
+  background-color: transparent;
+  color: dark;
+  border: none;
+  padding: 24px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: -49px;
+}
+
+.plumberButton img {
+  max-width: 40%;
+}
+
+.plumberButton:hover {
+  background-color: transparent;
+  opacity: 0.8;
+}
+
+.serviceContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pestControl {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.serviceButton {
+  width: 45%;
+}
+
+.pestControl {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+}
+
+.pestControl img {
+  max-width: 100%;
+  margin-top: -0.5rem;
+}
+
+.serviceButton {
+  background-color: transparent;
+  color: dark;
+  border: none;
+  padding: -12px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+
+.serviceButton img {
+  max-width: 60px;
+  max-height: 60px;
+}
+
+.serviceButton:hover {
+  background-color: transparent;
+  opacity: 0.8;
+}
+
+.plumberButton {
+  padding: 19px 4px;
+}
+
+.serviceContainer {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.serviceName {
+  margin-top: 8px;
+}

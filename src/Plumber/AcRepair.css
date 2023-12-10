@@ -1,0 +1,63 @@
+/* Global Styles */
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .flat-options {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .flat-size-dropdown {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .book-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  /* Termite Content */
+  .termite-content {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .termite-content h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .termite-content p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+  }
+  
+  /* Media Query for Responsive Design */
+  @media (max-width: 768px) {
+    .image-container {
+      padding: 10px;
+    }
+  
+    .termite-content {
+      padding: 10px;
+    }
+  }
+  

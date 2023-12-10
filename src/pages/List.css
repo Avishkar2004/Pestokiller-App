@@ -1,0 +1,185 @@
+ion-item:hover {
+  --background: #5cffa8;
+  --color: var(--ion-color-dark);
+}
+
+ion-item {
+  --padding-start: 20px;
+}
+
+ion-item::part(detail-icon) {
+  color: #ff00ff;
+  opacity: 1;
+}
+
+/* This is for Tab2 */
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.draggable-element {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+}
+
+.beautiful-content {
+  padding: 20px;
+  text-align: center;
+}
+
+.horizontal-select {
+  display: inline-block;
+  vertical-align: middle;
+  width: auto;
+  margin-top: 15px;
+}
+
+/* List.css for user */
+ion-segment-button {
+  background-color: #3498db;
+  color: white;
+}
+
+ion-card {
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+ion-card-content {
+  padding: 16px;
+}
+
+ion-modal ion-content {
+  padding: 20px;
+}
+
+ion-fab {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.service-options-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+  background-color: white;
+}
+
+.service-option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  cursor: pointer;
+  width: calc(50% - 20px);
+}
+
+.image {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.link-button {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.inner-scroll {
+  background: white;
+  background-color: white;
+  color: white;
+}
+
+.scroll-y {
+  overflow-y: var(--overflow);
+  overscroll-behavior-y: contain;
+  background: white;
+}
+
+:host {
+  --background: rgba(var(--ion-text-color-rgb, 0, 0, 0), white);
+  border-radius: 8px;
+  overflow: hidden;
+  z-index: 0;
+  color: white;
+}
+
+/* under button List.css */
+.flat-options {
+  text-align: center;
+}
+
+.flat-size-dropdown {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  background-color: white;
+  color: #333;
+  width: 100%;
+  max-width: 300px;
+  margin: 10px auto;
+  appearance: none;
+  -webkit-appearance: none;
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000000'%3E%3Cpath d='M3.5 6l4 4 4-4z'/%3E%3C/svg%3E"),
+    linear-gradient(to bottom, #ffffff 0%, #ffffff 100%);
+  background-repeat: no-repeat, repeat;
+  background-position: right 0.7em top 50%, 0 0;
+  background-size: 0.65em auto, 100%;
+}
+
+.flat-size-dropdown:focus {
+  outline: none;
+  border-color: black;
+  box-shadow: 0 0 5px rgba(0, 102, 204, 0.5);
+}
+
+.book-button {
+  background-color: #0066cc;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.book-button:hover {
+  background-color: #0056b3;
+}
+
+/* Termite.css */
+.image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.termite-image {
+  width: 210px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.termite-content {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+}

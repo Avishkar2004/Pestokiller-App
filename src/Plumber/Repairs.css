@@ -1,0 +1,47 @@
+.ion-padding {
+  padding: 20px;
+}
+
+.Repair {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.Repair > div {
+  width: 45%;
+  text-align: center;
+  margin-bottom: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #fff;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.Repair > div:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.Repair img {
+  max-width: 80%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.TvRepairBtn,
+.AcRepairBtn,
+.MotorBikeBtn,
+.MobileBtn,
+.ComputerBtn,
+.CarServiceBtn {
+  font-size: 14px;
+  background-color: white;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}

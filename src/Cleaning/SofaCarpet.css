@@ -1,0 +1,66 @@
+/* SofaCarpet.css */
+
+/* Global Styles */
+.ion-padding {
+  padding: 20px;
+}
+
+/* Styling for the main content container */
+.image-container {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.flat-options {
+  text-align: center;
+}
+
+.flat-size-dropdown {
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.book-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.book-button:hover {
+  background-color: #0056b3;
+}
+
+.SofaCarpet-content {
+  text-align: center;
+}
+
+/* Styling for the text content */
+.SofaCarpet-content h2 {
+  margin-bottom: 10px;
+}
+
+.SofaCarpet-content p {
+  margin-bottom: 15px;
+}
+
+/* Styling for the images in the text content */
+.SofaCarpet-content img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
